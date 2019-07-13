@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function disable() {
+            document.getElementById("mySelect1").disabled = true;
+        }
+        function enable() {
+            document.getElementById("mySelect1").disabled = false;
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <select id="mySelect" onChange="enable();">
+            <option onSelect="disable();">No</option>
+            <option onSelect="enable();">Yes</option>
+        </select>
+        <select id="mySelect1" disabled="disabled">
+            <option>Dep1</option>
+            <option>Dep2</option>
+            <option>Dep3</option>
+            <option>Dep4</option>
+        </select>
+    </form>
+</body>
+
+</html>
