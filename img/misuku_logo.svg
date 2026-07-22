@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+      .logo-bg { fill: #007fff; }
+      .logo-circle { fill: none; stroke: #ffffff; stroke-width: 3; }
+    </style>
+  </defs>
+  <rect class="logo-bg" width="150" height="150" rx="10"/>
+  <circle class="logo-circle" cx="75" cy="55" r="30"/>
+  <path d="M 45 85 Q 75 75 105 85" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="75" y="125" class="logo-text" fill="#ffffff" text-anchor="middle">MISUKU</text>
+</svg>
